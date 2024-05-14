@@ -16,7 +16,8 @@ Quiz game that utilizes webcam interaction for answer selection. The user raises
 ## About
 This is app is based on OpenCv a real time computer vision library, MediaPipe a framework for building pipelines to perform computer vision inference over arbitrary sensory data such as video or audio, and cvzone for detecting hands.
 
-![Uploading quize_game.png…]()
+![quize_game](https://github.com/MohamedAli00949/quiz-app/assets/102941591/2de8e777-dff1-459d-8667-5cbaad423613)
+
 
 ## Built With
 * OpenCV (cv2): Provides fundamental image and video processing capabilities. ([https://opencv.org/](https://opencv.org/))
