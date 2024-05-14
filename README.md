@@ -20,6 +20,8 @@ This is app is based on OpenCv a real time computer vision library, MediaPipe a 
 
 The game presents users with multiple-choice questions (MCQs) related to patterns. The user interacts with the game by raising their hand in front of the webcam and pointing towards the answer choice they believe is correct. The webcam feed is processed to detect the user's hand position and determine the chosen answer.
 
+![img.png](img.png)
+
 ## Built With
 * [OpenCV (cv2)](https://opencv.org/): Provides fundamental image and video processing capabilities.
 * [MediaPipe (mediapipe)](https://github.com/google/mediapipe): Likely used for more advanced hand pose estimation or gesture recognition.
