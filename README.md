@@ -11,27 +11,26 @@ Quiz game that utilizes webcam interaction for answer selection. The user raises
   - [Prerequisites:](#prerequisites)
   - [Get started](#get-started)
   - [Gameplay](#gameplay)
-  - [Contributors:](#contributors)
+  - [Contributors](#contributors)
 
 ## About
 This is app is based on OpenCv a real time computer vision library, MediaPipe a framework for building pipelines to perform computer vision inference over arbitrary sensory data such as video or audio, and cvzone for detecting hands.
-
-## Built With
-* OpenCV (cv2): Provides fundamental image and video processing capabilities. ([https://opencv.org/](https://opencv.org/))
-* MediaPipe (mediapipe): Likely used for more advanced hand pose estimation or gesture recognition. (https://github.com/google/mediapipe)
-* cvzone: A computer vision library that might offer functionalities for simplifying hand detection or user interaction tasks within OpenCV. You can search for more information about cvzone online. 
 
 **Concept**
 
 The game presents users with multiple-choice questions (MCQs) related to patterns. The user interacts with the game by raising their hand in front of the webcam and pointing towards the answer choice they believe is correct. The webcam feed is processed to detect the user's hand position and determine the chosen answer.
 
-**Getting Started**
+## Built With
+* [OpenCV (cv2)](https://opencv.org/): Provides fundamental image and video processing capabilities.
+* [MediaPipe (mediapipe)](https://github.com/google/mediapipe): Likely used for more advanced hand pose estimation or gesture recognition.
+* [cvzone](https://github.com/cvzone/cvzone): A computer vision library that might offer functionalities for simplifying hand detection or user interaction tasks within OpenCV. You can search for more information about cvzone online. 
+
 
 ## Prerequisites:
 * Python (version to be specified)
-* OpenCV library (cv2) ([https://opencv.org/](https://opencv.org/))
-* MediaPipe (mediapipe) library (https://github.com/google/mediapipe)
-* cvzone library (installation instructions likely found online)
+* [OpenCV library (cv2)](https://opencv.org/)
+* [MediaPipe (mediapipe) library](https://github.com/google/mediapipe)
+* [cvzone](https://github.com/cvzone/cvzone)
 * Additional libraries may be required based on the chosen development framework (e.g., TensorFlow for machine learning aspects)
 
 ## Get started
